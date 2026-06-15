@@ -1,5 +1,5 @@
 {
-  "name": "@your-scope/use-array-state",
+  "name": "@UX/use-array-state",
   "version": "1.0.0",
   "description": "A robust React hook for managing array state with built-in manipulation methods.",
   "main": "./dist/index.js",
@@ -18,9 +18,18 @@
     "hook",
     "state",
     "array",
-    "typescript"
-  ],
-  "author": "Your Name",
+    "typescript", 
+    "helper"
+    ],
+  "homepage": "https://github.com/YotamHassin/UseArray",
+  "bugs": {
+    "url": "https://github.com/YotamHassin/UseArray/issues"
+  },
+  "author": "Yotam Hassin <YotamHassinWork@gmail.com> (https://www.linkedin.com/in/yotamhassin/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YotamHassin/UseArray.git"
+  },
   "license": "MIT",
   "peerDependencies": {
     "react": ">=16.8.0"

@@ -5,13 +5,13 @@ A professional React hook to handle array states with built-in operations like m
 ## Installation
 
 ```bash
-npm install @your-scope/use-array-state
+npm install @UX/use-array-state
 ```
 
 ## Usage
 
 ```typescript
-import { useArrayState } from '@your-scope/use-array-state';
+import { useArrayState } from '@UX/use-array-state';
 
 const MyComponent = () => {
   const { items, addNewItem, moveDirection } = useArrayState<string>(['Apple', 'Banana']);

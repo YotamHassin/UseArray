@@ -1,5 +1,5 @@
 {
-  "name": "useArrayState",
+  "name": "use-array-ux",
   "version": "1.0.0",
   "description": "A robust React hook for managing array state with built-in manipulation methods.",
   "main": "./dist/index.js",
@@ -18,9 +18,9 @@
     "hook",
     "state",
     "array",
-    "typescript", 
+    "typescript",
     "helper"
-    ],
+  ],
   "homepage": "https://github.com/YotamHassin/UseArray",
   "bugs": {
     "url": "https://github.com/YotamHassin/UseArray/issues"
@@ -37,7 +37,7 @@
   "devDependencies": {
     "@types/react": "^18.0.0",
     "react": "^18.0.0",
-    "typescript": "^5.0.0",
-    "tsup": "^8.0.0"
+    "tsup": "^6.5.0",
+    "typescript": "^5.0.0"
   }
 }

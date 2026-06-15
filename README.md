@@ -1,17 +1,17 @@
-# useArrayState
+# use-array-ux
 
 A professional React hook to handle array states with built-in operations like move, insert, and update.
 
 ## Installation
 
 ```bash
-npm install useArrayState
+npm install use-array-ux
 ```
 
 ## Usage
 
 ```typescript
-import { useArrayState } from 'useArrayState';
+import { useArrayState } from 'use-array-ux';
 
 const MyComponent = () => {
   const { items, addNewItem, moveDirection } = useArrayState<string>(['Apple', 'Banana']);

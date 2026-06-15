@@ -1,137 +1,32 @@
-PS D:\Apps\my-text> git init
-Initialized empty Git repository in D:/Apps/app/my-text/.git/
+Microsoft Windows [Version 10.0.21996.1]
+(c) Microsoft Corporation. All rights reserved.
 
-PS D:\Apps\my-text> git add .
-warning: in the working copy of '.eslintrc.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'next.config.js', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/pages/_app.tsx', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/pages/_document.tsx', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/pages/clientIndex.tsx', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/pages/index.tsx', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/GamePlayScreen/GamePlayScreen.module.scss', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/GamePlayScreen/image-container.scss', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/GamePlayScreen/var.scss', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/Home.module.css', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/font-icon.scss', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/fontello-embedded.css', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'src/styles/globals.css', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tests.md', LF will be replaced by CRLF the next time Git touches it
-warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+D:\Apps\UseArray>git init
+Initialized empty Git repository in D:/Apps/UseArray/.git/
 
-PS D:\Apps\app\my-text> git commit -m "Initial commit"
-[master (root-commit) e871441] Initial commit
- 83 files changed, 9956 insertions(+)
- create mode 100644 .eslintrc.json
- create mode 100644 .gitignore
- create mode 100644 README.md
- create mode 100644 next.config.js
- create mode 100644 package-lock.json
- create mode 100644 package.json
- create mode 100644 public/favicon.ico
- create mode 100644 public/images/background.jpg
- create mode 100644 public/next.svg
- create mode 100644 public/service-worker.js
- create mode 100644 public/vercel.svg
- create mode 100644 src/components/ErrorBoundary.tsx
- create mode 100644 src/components/MyCarousel.tsx
- create mode 100644 src/components/Popover.tsx
- create mode 100644 src/components/Tooltip.tsx
- create mode 100644 src/components/hammerComponent.tsx
- create mode 100644 src/models/base.ts
- create mode 100644 src/models/booly.ts
- create mode 100644 src/models/index.ts
- create mode 100644 src/my-array/EditableCmp.tsx
- create mode 100644 src/my-array/EditableLine.tsx
- create mode 100644 src/my-array/EditableParagraph.tsx
- create mode 100644 src/my-array/EditableWord.tsx
- create mode 100644 src/my-array/GamePlayScreen.tsx
- create mode 100644 src/my-array/Paragraph.tsx
- create mode 100644 src/my-array/ParagraphWrapperStore.tsx
- create mode 100644 src/my-array/ResultParagraphs.tsx
- create mode 100644 src/my-array/Texts.ts
- create mode 100644 src/my-array/cmp/CopyHandlerWrapper.tsx
- create mode 100644 src/my-array/cmp/MyToast.tsx
- create mode 100644 src/my-array/cmp/OnScreenButtons.tsx
- create mode 100644 src/my-array/cmp/OnScreenInstructions.tsx
- create mode 100644 src/my-array/cmp/ToRTL.tsx
- create mode 100644 src/my-array/index.tsx
- create mode 100644 src/my-array/models/Directions.ts
- create mode 100644 src/my-array/models/KeyCodes.ts
- create mode 100644 src/my-array/models/SpecialCodes.ts
- create mode 100644 src/my-array/models/index.tsx
- create mode 100644 src/my-array/models/textParts.ts
- create mode 100644 src/my-array/store/configurationStoreApi.ts
- create mode 100644 src/my-array/store/documentStore.ts
- create mode 100644 src/my-array/store/documentStoreBase.ts
- create mode 100644 src/my-array/utils/document/documentState.ts
- create mode 100644 src/my-array/utils/document/index.ts
- create mode 100644 src/my-array/utils/document/textParts.ts
- create mode 100644 src/my-array/utils/documentActions/editorActions.ts
- create mode 100644 src/my-array/utils/documentActions/index.ts
- create mode 100644 src/my-array/utils/documentActions/joinActions.ts
- create mode 100644 src/my-array/utils/documentActions/splitActions.ts
- create mode 100644 src/my-array/utils/events/OnBlur.ts
- create mode 100644 src/my-array/utils/events/OnChange.ts
- create mode 100644 src/my-array/utils/events/OnClick.ts
- create mode 100644 src/my-array/utils/events/OnKeyDown.ts
- create mode 100644 src/my-array/utils/events/_onEventWithArgs.ts
- create mode 100644 src/my-array/utils/events/index.ts
- create mode 100644 src/my-array/utils/splitAndContains.ts
- create mode 100644 src/my-array/utils/stringUtils.ts
- create mode 100644 src/pages/_app.tsx
- create mode 100644 src/pages/_document.tsx
- create mode 100644 src/pages/clientIndex.tsx
- create mode 100644 src/pages/index.tsx
- create mode 100644 src/pages/serviceWorker.ts
- create mode 100644 src/styles/EditableCmp.module.scss
- create mode 100644 src/styles/GamePlayScreen/GamePlayScreen.module.scss
- create mode 100644 src/styles/GamePlayScreen/image-container.scss
- create mode 100644 src/styles/GamePlayScreen/image-gradient-background.scss
- create mode 100644 src/styles/GamePlayScreen/main-container.scss
- create mode 100644 src/styles/GamePlayScreen/main-section-base.scss
- create mode 100644 src/styles/GamePlayScreen/main-section-column.scss
- create mode 100644 src/styles/GamePlayScreen/main-section-row.scss
- create mode 100644 src/styles/GamePlayScreen/main-section.scss
- create mode 100644 src/styles/GamePlayScreen/var.scss
- create mode 100644 src/styles/Home.module.css
- create mode 100644 src/styles/bootstrap-variables.scss
- create mode 100644 src/styles/bootstrap.scss
- create mode 100644 src/styles/font-icon.scss
- create mode 100644 src/styles/fontello-embedded.css
- create mode 100644 src/styles/globals.css
- create mode 100644 src/util/bootstrap.ts
- create mode 100644 src/util/useHammer.ts
- create mode 100644 src/util/usePanHandler.ts
- create mode 100644 tests.md
- create mode 100644 tsconfig.json
+D:\Apps\UseArray>git add .
 
-PS D:\Apps\app\my-text> git remote add origin https://github.com/YotamHassin/MyText.git
+D:\Apps\UseArray>git commit -m "Initial commit"
+[master (root-commit) 552743c] Initial commit
+ 4 files changed, 307 insertions(+)
+ create mode 100644 git.txt
+ create mode 100644 index.ts
+ create mode 100644 models.ts
+ create mode 100644 useArrayState.ts
 
-PS D:\Apps\app\my-text> git push -u origin main
-error: src refspec main does not match any
-error: failed to push some refs to 'https://github.com/YotamHassin/MyText.git'
+D:\Apps\UseArray>git remote add origin https://github.com/YotamHassin/UseArray.git
 
-נראה שקיבלת את השגיאה src refspec main does not match any 
-מכיוון שבענף המקומי שלך ב-Git, 
-השם אינו main. 
-רוב הסיכויים שהוא נקרא עדיין master.
+D:\Apps\UseArray>git branch -M main
 
-כדי לפתור את זה, עליך לבדוק מהו שם הענף המקומי שלך ולבצע את ה-
-push בהתאם.
-
-PS D:\Apps\app\my-text> git push -u origin master
-Enumerating objects: 102, done.
-Counting objects: 100% (102/102), done.
+D:\Apps\UseArray>git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (100/100), done.
-Writing objects: 100% (102/102), 981.63 KiB | 397.00 KiB/s, done.
-Total 102 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (2/2), done.
-To https://github.com/YotamHassin/MyText.git
- * [new branch]      master -> master
-branch 'master' set up to track 'origin/master'.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.92 KiB | 2.92 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/YotamHassin/UseArray.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
+D:\Apps\UseArray>

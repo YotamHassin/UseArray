@@ -1,4 +1,4 @@
-import react, {
+import {
   Dispatch, SetStateAction, 
 } from "react";
 
@@ -16,4 +16,3 @@ export interface ArrayStateHandler<T> {
   deleteItem: (index: number) => void;
 
 }
-

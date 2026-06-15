@@ -1,5 +1,5 @@
 {
-  "name": "@UX/use-array-state",
+  "name": "useArrayState",
   "version": "1.0.0",
   "description": "A robust React hook for managing array state with built-in manipulation methods.",
   "main": "./dist/index.js",

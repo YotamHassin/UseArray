@@ -6,12 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "install-init": "npm install"
+    "install-init": "npm install",
+    "install-dep": "npm install use-array-ux@1.0.4 -save"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "use-array-ux": "file:.."
+    "use-array-ux": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",

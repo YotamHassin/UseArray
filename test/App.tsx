@@ -1,16 +1,10 @@
 import { useArrayState } from 'use-array-ux';
+//import { useArrayState } from '../dist/index';
 
 function App() {
   const { items, addNewItem, deleteItem, moveDirection, updateItem } = useArrayState<string>(['React', 'Vite', 'TypeScript']);
 
-  return (
-    <div style={{ padding: '40px', fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '0 auto' }}>
-      <h1>🧪 use-array-ux Sandbox</h1>
-      <hr />
-      <div style={{ marginBottom: '20px' }}>
-        <button onClick={() => addNewItem(prompt('New item:') || 'New Item')}>➕ Add Item</button>
-      </div>
-      
+  const itemsListMarkup = <>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         {items.map((item, index) => (
           <li key={index} style={{ 
@@ -31,10 +25,27 @@ function App() {
         ))}
       </ul>
 
+  </>
+
+  return (
+    <div style={{ padding: '40px', fontFamily: 'Arial, sans-serif', maxWidth: '600px', margin: '0 auto' }}>
+      <h1>🧪 use-array-ux Sandbox</h1>
+      <hr />
+
+      {/* Add Item */}
+      <div style={{ marginBottom: '20px' }}>
+        <button onClick={() => addNewItem(prompt('New item:') || 'New Item')}>➕ Add Item</button>
+      </div>
+      
+      {/* Raw State */}
+      {itemsListMarkup}
+
+      {/* Raw State */}
       <pre style={{ background: '#f4f4f4', padding: '10px' }}>
         Raw State: {JSON.stringify(items, null, 2)}
       </pre>
     </div>
   );
 }
+
 export default App;

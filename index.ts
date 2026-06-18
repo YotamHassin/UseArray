@@ -1,5 +1,4 @@
 
-export type { ArrayStateHandler, Direction } from "./models";
+export * from "./src";
 
-export { useArrayState, useArrayStateInit } from "./useArrayState";
 

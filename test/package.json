@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "install-init": "npm install",
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "install-init": "npm install"
   },
   "dependencies": {
     "react": "^18.2.0",

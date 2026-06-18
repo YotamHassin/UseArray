@@ -1,4 +1,7 @@
 import { useArrayState } from 'use-array-ux';
+/*     
+"use-array-ux": "file:.."
+ */
 //import { useArrayState } from '../dist/index';
 
 function App() {

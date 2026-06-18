@@ -1,6 +1,6 @@
 {
   "name": "use-array-ux",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A robust React hook for managing array state with built-in manipulation methods.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -12,6 +12,7 @@
     "build": "tsup index.ts --format cjs,esm --dts --clean",
     "lint": "eslint . --ext .ts,.tsx",
     "prepublishOnly": "npm run build",
+    "login": "npm login",
     "full-publish": "npm run build && npm publish --access public",
     "publish": "npm publish"
   },
